@@ -36,6 +36,81 @@ npm run dev
 
 Visit our [documentation](docs/README.md) for detailed information.
 
+## Development
+
+### Setup Local Environment
+
+```bash
+# Install development dependencies
+npm install --save-dev
+
+# Run tests
+npm test
+
+# Run linter
+npm run lint
+
+# Build project
+npm run build
+```
+
+### Smart Contract Development
+
+```bash
+# Deploy contracts
+npx hardhat deploy
+
+# Run contract tests
+npx hardhat test
+
+# Start local blockchain
+npx hardhat node
+```
+
+## Roadmap
+
+### Phase 1: Infrastructure Development (2024 Q4 - 2025 Q1)
+- Core protocol development
+- Basic infrastructure deployment
+- Security audits and optimizations
+
+### Phase 2: Ecosystem Expansion (2025 Q1 - 2025 Q3)
+- Network launch and stabilization
+- Community building initiatives
+- Initial partnerships establishment
+
+### Phase 3: Market Expansion (2025 Q3 - 2026 Q1)
+- Marketplace ecosystem growth
+- Token economy optimization
+- Industry adoption expansion
+
+### Phase 4: Autonomous Ecosystem (2026 Q1+)
+- Full decentralization achievement
+- Advanced AI capabilities deployment
+- Global ecosystem integration
+
+## Contributing
+
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+
+### Development Process
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
+
+## Community
+
+- [Website](https://www.aira-agents.xyz)
+- [Twitter](https://twitter.com/AIRA_AGENTS)
+- [Discord](https://discord.gg/aira)
+- [Telegram](https://t.me/aira_community)
+
+## Security
+
+For security concerns, please email security@aira-agents.xyz or submit an issue.
+
 ## License
 
-MIT License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
