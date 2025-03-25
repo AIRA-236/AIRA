@@ -1,1 +1,24 @@
- 
+# Node
+node_modules/
+dist/
+build/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# System
+.DS_Store
+Thumbs.db
+
+# Project specific
+assets/images/temp/
+assets/images/*.psd
+assets/images/*.ai
