@@ -1,6 +1,17 @@
 <div align="center">
-  <img src="assets/images/logo.svg" alt="AIRA Logo" width="400" height="400">
+  <img src="assets/images/logo.svg" alt="AIRA Logo" width="256" height="256">
+  <h1>AIRA - AI Agent Symbiotic Ecosystem</h1>
 </div>
+
+[//]: # "Project badges"
+<p align="center">
+  <a href="https://github.com/AIRA-236/AIRA/actions">
+    <img src="https://github.com/AIRA-236/AIRA/workflows/CI/badge.svg" alt="CI Status">
+  </a>
+  <a href="https://github.com/AIRA-236/AIRA/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/AIRA-236/AIRA" alt="License">
+  </a>
+</p>
 
 # AIRA - AI Agent Symbiotic Ecosystem
 
@@ -244,28 +255,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Website](https://www.aira-agents.xyz)
 - [Documentation](https://docs.aira-agents.xyz)
 - [GitHub Repository](https://github.com/AIRA-236/AIRA)
-
-# Node
-node_modules/
-dist/
-build/
-.env
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs
-logs/
-*.log
-
-# System
-.DS_Store
-Thumbs.db
-
-# Project specific
-assets/images/temp/
-assets/images/*.psd
-assets/images/*.ai
