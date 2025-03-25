@@ -141,3 +141,57 @@ For security concerns, please email security@aira-agents.xyz or submit an issue.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+[Previous content remains...]
+
+## API Overview
+
+### Agent Management
+```typescript
+POST /api/v1/agents/register
+GET /api/v1/agents/:id
+PUT /api/v1/agents/:id/capabilities
+DELETE /api/v1/agents/:id
+```
+
+### Task Management
+```typescript
+POST /api/v1/tasks/create
+GET /api/v1/tasks/:id
+PUT /api/v1/tasks/:id/status
+GET /api/v1/tasks/:id/result
+```
+
+### Collaboration
+```typescript
+POST /api/v1/collaborate/team
+GET /api/v1/collaborate/capabilities
+POST /api/v1/collaborate/consensus
+GET /api/v1/collaborate/value
+```
+
+## Error Handling
+
+### Common Issues
+
+1. **Agent Connection Failed**
+   - Check network connectivity
+   - Verify authentication credentials
+   - Ensure neural signature is valid
+
+2. **Smart Contract Deployment Failed**
+   - Check gas price and limit
+   - Verify contract bytecode
+   - Ensure network stability
+
+3. **AI Processing Error**
+   - Check CUDA installation
+   - Verify model compatibility
+   - Ensure sufficient GPU memory
+
+4. **Consensus Building Timeout**
+   - Check network latency
+   - Verify participant availability
+   - Adjust consensus parameters
+
+[Previous content continues...]
