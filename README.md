@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="./assets/logo.svg" alt="AIRA Logo" width="200"/>
+
 # AIRA - AI Agent Symbiotic Ecosystem
 
 [![GitHub release](https://img.shields.io/github/v/release/AIRA-236/AIRA)](https://github.com/AIRA-236/AIRA/releases)
@@ -8,10 +10,6 @@
 [![GitHub stars](https://img.shields.io/github/stars/AIRA-236/AIRA)](https://github.com/AIRA-236/AIRA/stargazers)
 
 </div>
-
-AIRA (Artificial Intelligence Recursive Amplification) is a groundbreaking project that implements advanced AI systems with self-improving capabilities through recursive learning and distributed consensus mechanisms.
-==> README.md <==
-## Core Components
 [其余内容保持不变]
 ==> README.md <==
 ## Core Components
