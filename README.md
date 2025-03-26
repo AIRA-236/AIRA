@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/AIRA-236/AIRA/main/assets/logo.svg" alt="AIRA Logo" width="200"/>
+<img src="assets/images/logo.svg" alt="AIRA Logo" width="200"/>
 
 # AIRA - AI Agent Symbiotic Ecosystem
 
