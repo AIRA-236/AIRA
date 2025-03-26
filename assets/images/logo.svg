@@ -1,52 +1,46 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
-  <!-- Background -->
-  <circle cx="200" cy="200" r="200" fill="#052e16" />
-  <circle cx="200" cy="200" r="180" fill="#031b0d" />
+  <!-- 背景 -->
+  <circle cx="200" cy="200" r="200" fill="#052e16"/>
+  <circle cx="200" cy="200" r="180" fill="#031b0d"/>
   
-  <!-- Leaf pattern elements -->
+  <!-- 叶片形态元素 -->
   <g transform="translate(200, 200)">
-    <!-- Leaf 1 - Top -->
-    <path d="M0,-30 C20,-90 60,-120 0,-170 C-60,-120 -20,-90 0,-30 Z" fill="#39ff14" opacity="0.8" />
+    <!-- 叶片 1 - 上 -->
+    <path d="M0,-30 C20,-90 60,-120 0,-170 C-60,-120 -20,-90 0,-30 Z" fill="#39ff14" opacity="0.8"/>
     
-    <!-- Leaf 2 - Right -->
-    <path d="M30,0 C90,-20 120,-60 170,0 C120,60 90,20 30,0 Z" fill="#39ff14" opacity="0.8" />
+    <!-- 叶片 2 - 右 -->
+    <path d="M30,0 C90,-20 120,-60 170,0 C120,60 90,20 30,0 Z" fill="#39ff14" opacity="0.8"/>
     
-    <!-- Leaf 3 - Bottom -->
-    <path d="M0,30 C-20,90 -60,120 0,170 C60,120 20,90 0,30 Z" fill="#39ff14" opacity="0.8" />
+    <!-- 叶片 3 - 下 -->
+    <path d="M0,30 C-20,90 -60,120 0,170 C60,120 20,90 0,30 Z" fill="#39ff14" opacity="0.8"/>
     
-    <!-- Leaf 4 - Left -->
-    <path d="M-30,0 C-90,20 -120,60 -170,0 C-120,-60 -90,-20 -30,0 Z" fill="#39ff14" opacity="0.8" />
+    <!-- 叶片 4 - 左 -->
+    <path d="M-30,0 C-90,20 -120,60 -170,0 C-120,-60 -90,-20 -30,0 Z" fill="#39ff14" opacity="0.8"/>
     
-    <!-- Inner connection -->
-    <circle cx="0" cy="0" r="45" fill="#031b0d" stroke="#39ff14" stroke-width="3" />
+    <!-- 内部连接 -->
+    <circle cx="0" cy="0" r="45" fill="#031b0d" stroke="#39ff14" stroke-width="3"/>
     
-    <!-- Center cross - Abstract "A" -->
-    <path d="M-20,-30 L0,30 L20,-30" stroke="#39ff14" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M-25,0 L25,0" stroke="#39ff14" stroke-width="6" fill="none" stroke-linecap="round" />
+    <!-- 中心十字 -->
+    <path d="M-20,-30 L0,30 L20,-30" stroke="#39ff14" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-25,0 L25,0" stroke="#39ff14" stroke-width="6" fill="none" stroke-linecap="round"/>
     
-    <!-- Center point -->
-    <circle cx="0" cy="0" r="10" fill="#39ff14" />
-    
-    <!-- Energy aura -->
-    <circle cx="0" cy="0" r="65" fill="none" stroke="#39ff14" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.7" />
-    
-    <!-- Glow effect -->
-    <circle cx="0" cy="0" r="90" fill="none" stroke="#39ff14" stroke-width="20" opacity="0.1" />
+    <!-- 中心点 -->
+    <circle cx="0" cy="0" r="10" fill="#39ff14"/>
   </g>
   
-  <!-- Ecosystem nodes -->
+  <!-- 装饰性小亮点 -->
   <g>
-    <circle cx="130" cy="130" r="3" fill="#39ff14" opacity="0.9" />
-    <circle cx="270" cy="130" r="3" fill="#39ff14" opacity="0.9" />
-    <circle cx="130" cy="270" r="3" fill="#39ff14" opacity="0.9" />
-    <circle cx="270" cy="270" r="3" fill="#39ff14" opacity="0.9" />
-    <circle cx="200" cy="80" r="3" fill="#39ff14" opacity="0.9" />
-    <circle cx="200" cy="320" r="3" fill="#39ff14" opacity="0.9" />
-    <circle cx="80" cy="200" r="3" fill="#39ff14" opacity="0.9" />
-    <circle cx="320" cy="200" r="3" fill="#39ff14" opacity="0.9" />
+    <circle cx="130" cy="130" r="3" fill="#39ff14" opacity="0.9"/>
+    <circle cx="270" cy="130" r="3" fill="#39ff14" opacity="0.9"/>
+    <circle cx="130" cy="270" r="3" fill="#39ff14" opacity="0.9"/>
+    <circle cx="270" cy="270" r="3" fill="#39ff14" opacity="0.9"/>
+    <circle cx="200" cy="80" r="3" fill="#39ff14" opacity="0.9"/>
+    <circle cx="200" cy="320" r="3" fill="#39ff14" opacity="0.9"/>
+    <circle cx="80" cy="200" r="3" fill="#39ff14" opacity="0.9"/>
+    <circle cx="320" cy="200" r="3" fill="#39ff14" opacity="0.9"/>
   </g>
   
-  <!-- Outer decoration -->
-  <circle cx="200" cy="200" r="165" fill="none" stroke="#39ff14" stroke-width="1" opacity="0.5" />
-  <circle cx="200" cy="200" r="175" fill="none" stroke="#39ff14" stroke-width="0.5" opacity="0.3" />
+  <!-- 外环装饰 -->
+  <circle cx="200" cy="200" r="165" fill="none" stroke="#39ff14" stroke-width="1" opacity="0.5"/>
+  <circle cx="200" cy="200" r="175" fill="none" stroke="#39ff14" stroke-width="0.5" opacity="0.3"/>
 </svg>
