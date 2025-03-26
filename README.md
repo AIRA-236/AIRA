@@ -1,3 +1,7 @@
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/AIRA-236/AIRA/main/assets/images/logo.png" alt="AIRA Logo" width="200"/>
+
 # AIRA - AI Agent Symbiotic Ecosystem
 
 [![GitHub release](https://img.shields.io/github/v/release/AIRA-236/AIRA)](https://github.com/AIRA-236/AIRA/releases)
