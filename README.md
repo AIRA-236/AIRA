@@ -15,16 +15,19 @@
 
 ## 📋 Table of Contents
 - [Overview](#overview)
+- [Technical Innovations](#technical-innovations)
 - [Core Components](#core-components)
 - [Business Applications](#business-applications)
 - [Token Economy](#token-economy)
 - [Development](#development)
-- [API Overview](#api-overview)
+- [API Documentation](#api-documentation)
 - [Error Handling](#error-handling)
 - [Roadmap](#roadmap)
 - [Resources](#resources)
 - [Security](#security)
+- [Contributing](#contributing)
 - [License](#license)
+- [Contact](#contact)
 
 ## 🚀 Overview
 
@@ -166,35 +169,6 @@ AIRA (Artificial Intelligence Recursive Amplification) is a groundbreaking proje
 
 ## 🛠️ Development
 
-### Project Structure
-```
-aira/
-├── src/                      # Source code
-│   ├── core/                 # Core implementations
-│   │   ├── agents/          # AI agent implementations
-│   │   ├── blockchain/      # Blockchain integrations
-│   │   ├── consensus/       # Consensus mechanisms
-│   │   └── ml/              # Machine learning models
-│   ├── types/               # Type definitions
-│   │   ├── agents.ts        # Agent type definitions
-│   │   ├── blockchain.ts    # Blockchain type definitions
-│   │   └── index.ts         # Type exports
-│   └── utils/               # Utility functions
-├── tests/                    # Test files
-│   ├── unit/                # Unit tests
-│   ├── integration/         # Integration tests
-│   └── e2e/                 # End-to-end tests
-├── docs/                     # Documentation
-│   ├── api/                 # API documentation
-│   ├── guides/              # User guides
-│   └── architecture/        # Architecture docs
-├── scripts/                  # Build and deployment scripts
-├── examples/                 # Example implementations
-└── configs/                  # Configuration files
-```
-
-## 🚀 Quick Start
-
 ### Prerequisites
 ```bash
 # Required
@@ -238,55 +212,7 @@ cp .env.example .env
 npm run dev
 ```
 
-## 📚 Usage Examples
-
-### 1. Create and Deploy an AI Agent
-
-```typescript
-import { AIRA } from '@aira/core';
-import { AgentConfig } from '@aira/types';
-
-// Initialize AIRA
-const aira = new AIRA({
-  networkUrl: process.env.NETWORK_URL,
-  privateKey: process.env.PRIVATE_KEY
-});
-
-// Configure agent
-const config: AgentConfig = {
-  name: 'DataAnalyst',
-  capabilities: ['data-analysis', 'prediction'],
-  trustScore: 0.95
-};
-
-// Deploy agent
-const agent = await aira.deployAgent(config);
-console.log('Agent deployed:', agent.address);
-```
-
-### 2. Set Up Agent Collaboration
-
-```typescript
-// Create collaboration team
-const team = await aira.createTeam({
-  name: 'AnalyticsTeam',
-  agents: [agent1.address, agent2.address],
-  consensusThreshold: 0.8
-});
-
-// Start collaboration task
-const task = await team.startTask({
-  type: 'market-analysis',
-  data: marketData,
-  timeout: 5000
-});
-
-// Get results
-const result = await task.getResult();
-```
-
-## 📁 Project Structure
-
+### Project Structure
 ```
 aira/
 ├── src/                      # Source code
@@ -311,10 +237,56 @@ aira/
 ├── scripts/                  # Build and deployment scripts
 ├── examples/                 # Example implementations
 └── configs/                  # Configuration files
+```
+
+### Usage Examples
+
+#### 1. Create and Deploy an AI Agent
+
+```typescript
+import { AIRA } from '@aira/core';
+import { AgentConfig } from '@aira/types';
+
+// Initialize AIRA
+const aira = new AIRA({
+  networkUrl: process.env.NETWORK_URL,
+  privateKey: process.env.PRIVATE_KEY
+});
+
+// Configure agent
+const config: AgentConfig = {
+  name: 'DataAnalyst',
+  capabilities: ['data-analysis', 'prediction'],
+  trustScore: 0.95
+};
+
+// Deploy agent
+const agent = await aira.deployAgent(config);
+console.log('Agent deployed:', agent.address);
+```
+
+#### 2. Set Up Agent Collaboration
+
+```typescript
+// Create collaboration team
+const team = await aira.createTeam({
+  name: 'AnalyticsTeam',
+  agents: [agent1.address, agent2.address],
+  consensusThreshold: 0.8
+});
+
+// Start collaboration task
+const task = await team.startTask({
+  type: 'market-analysis',
+  data: marketData,
+  timeout: 5000
+});
+
+// Get results
+const result = await task.getResult();
+```
 
 ## 🔍 API Documentation
-
-Detailed API documentation is available in the [docs/api](docs/api) directory.
 
 ### Key APIs
 
@@ -380,3 +352,84 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - 🌐 Website: [https://www.aira-agents.xyz](https://www.aira-agents.xyz)
 - 🐦 Twitter: [@AIRA_AGENTS](https://twitter.com/AIRA_AGENTS)
 - 📧 Email: contact@aira-agents.xyz
+
+## ⚠️ Error Handling
+
+### Common Issues and Solutions
+
+1. **Agent Connection Issues**
+   - Check network connectivity
+   - Verify authentication credentials
+   - Ensure correct environment configuration
+   - Validate agent signatures
+
+2. **Smart Contract Deployment**
+   - Verify sufficient gas balance
+   - Check network congestion
+   - Validate contract bytecode
+   - Ensure correct network configuration
+
+3. **Performance Optimization**
+   - Monitor resource usage
+   - Implement proper caching
+   - Optimize database queries
+   - Use appropriate scaling strategies
+
+4. **Security Considerations**
+   - Regular security audits
+   - Input validation
+   - Rate limiting
+   - Access control
+
+## 🗓️ Roadmap
+
+### Phase 1: Foundation (Q2 2024)
+- Core protocol development
+- Basic agent implementation
+- Initial security framework
+- MVP release
+
+### Phase 2: Enhancement (Q3 2024)
+- Advanced agent capabilities
+- Improved consensus mechanism
+- Extended API functionality
+- Performance optimization
+
+### Phase 3: Scale (Q4 2024)
+- Enterprise integration
+- Advanced security features
+- Ecosystem expansion
+- Community growth
+
+### Phase 4: Innovation (2025+)
+- Advanced AI features
+- Cross-chain integration
+- Global adoption
+- Research collaboration
+
+## 🔗 Resources
+
+### Official Links
+- [Website](https://www.aira-agents.xyz)
+- [Documentation](docs/)
+- [GitHub Repository](https://github.com/AIRA-236/AIRA)
+
+### Developer Resources
+- [API Reference](docs/api)
+- [SDK Documentation](docs/sdk)
+- [Example Projects](examples/)
+- [Technical Blog](https://blog.aira-agents.xyz)
+
+## 🔒 Security
+
+### Security Measures
+- Regular security audits
+- Bug bounty program
+- Penetration testing
+- Compliance checks
+
+### Reporting Security Issues
+For security concerns, please:
+1. Email: security@aira-agents.xyz
+2. Submit a confidential issue
+3. Follow responsible disclosure
