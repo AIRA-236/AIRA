@@ -9,7 +9,6 @@
   ![Python](https://img.shields.io/badge/Python-3.8+-green)
   ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
   ![PRs](https://img.shields.io/badge/PRs-Welcome-brightgreen)
-  ![Love](https://img.shields.io/badge/Made_with-❤️-red)
 
   [Documentation](docs/) | [Contributing](CONTRIBUTING.md) | [Report Bug](issues) | [Request Feature](issues)
 </div>
