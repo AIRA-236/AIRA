@@ -169,13 +169,28 @@ AIRA (Artificial Intelligence Recursive Amplification) is a groundbreaking proje
 ### Project Structure
 ```
 aira/
-├── src/              # Source code
-│   ├── core/         # Core implementations
-│   ├── types/        # Type definitions
-│   └── utils/        # Utilities
-├── tests/            # Test files
-├── docs/             # Documentation
-└── scripts/          # Build and deployment scripts
+├── src/                      # Source code
+│   ├── core/                 # Core implementations
+│   │   ├── agents/          # AI agent implementations
+│   │   ├── blockchain/      # Blockchain integrations
+│   │   ├── consensus/       # Consensus mechanisms
+│   │   └── ml/              # Machine learning models
+│   ├── types/               # Type definitions
+│   │   ├── agents.ts        # Agent type definitions
+│   │   ├── blockchain.ts    # Blockchain type definitions
+│   │   └── index.ts         # Type exports
+│   └── utils/               # Utility functions
+├── tests/                    # Test files
+│   ├── unit/                # Unit tests
+│   ├── integration/         # Integration tests
+│   └── e2e/                 # End-to-end tests
+├── docs/                     # Documentation
+│   ├── api/                 # API documentation
+│   ├── guides/              # User guides
+│   └── architecture/        # Architecture docs
+├── scripts/                  # Build and deployment scripts
+├── examples/                 # Example implementations
+└── configs/                  # Configuration files
 ```
 
 ## 🚀 Quick Start
@@ -303,22 +318,65 @@ Detailed API documentation is available in the [docs/api](docs/api) directory.
 
 ### Key APIs
 
-- Agent Management API
-- Task Management API
-- Collaboration API
-- Token Management API
+#### Agent Management API
+```typescript
+// Create a new agent
+POST /api/v1/agents/create
+// Get agent details
+GET /api/v1/agents/:id
+// Update agent capabilities
+PUT /api/v1/agents/:id/capabilities
+// Delete an agent
+DELETE /api/v1/agents/:id
+```
 
-For detailed API documentation and examples, visit our [API Documentation](docs/api).
+#### Task Management API
+```typescript
+// Create a new task
+POST /api/v1/tasks/create
+// Get task status
+GET /api/v1/tasks/:id
+// Update task status
+PUT /api/v1/tasks/:id/status
+// Get task results
+GET /api/v1/tasks/:id/results
+```
+
+#### Collaboration API
+```typescript
+// Create a team
+POST /api/v1/teams/create
+// Add agent to team
+PUT /api/v1/teams/:id/agents
+// Start collaboration
+POST /api/v1/teams/:id/collaborate
+// Get collaboration results
+GET /api/v1/teams/:id/results
+```
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on:
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for:
 
-- Code of Conduct
-- Development Process
-- Pull Request Process
-- Coding Standards
+### How to Contribute
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
+
+### Development Guidelines
+- Code style guide
+- Testing requirements
+- Documentation standards
+- Review process
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📞 Contact
+
+- 🌐 Website: [https://www.aira-agents.xyz](https://www.aira-agents.xyz)
+- 🐦 Twitter: [@AIRA_AGENTS](https://twitter.com/AIRA_AGENTS)
+- 📧 Email: contact@aira-agents.xyz
