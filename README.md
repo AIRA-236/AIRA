@@ -3,13 +3,13 @@
   <h1>AIRA - AI Agent Symbiotic Ecosystem</h1>
   <p>A revolutionary platform for AI agent collaboration and evolution</p>
 
-  ![Static Badge](https://img.shields.io/badge/Status-Active-success)
-  ![Static Badge](https://img.shields.io/badge/Version-0.1.0-blue)
-  ![Static Badge](https://img.shields.io/badge/License-MIT-yellow)
-  ![Static Badge](https://img.shields.io/badge/Python-3.8+-green)
-  ![Static Badge](https://img.shields.io/badge/TypeScript-5.0-blue)
-  ![Static Badge](https://img.shields.io/badge/PRs-Welcome-brightgreen)
-  ![Static Badge](https://img.shields.io/badge/Made_with-❤️-red)
+  ![Status](https://img.shields.io/badge/Status-Active-success)
+  ![Version](https://img.shields.io/badge/Version-0.1.0-blue)
+  ![License](https://img.shields.io/badge/License-MIT-yellow)
+  ![Python](https://img.shields.io/badge/Python-3.8+-green)
+  ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
+  ![PRs](https://img.shields.io/badge/PRs-Welcome-brightgreen)
+  ![Love](https://img.shields.io/badge/Made_with-❤️-red)
 
   [Documentation](docs/) | [Contributing](CONTRIBUTING.md) | [Report Bug](issues) | [Request Feature](issues)
 </div>
