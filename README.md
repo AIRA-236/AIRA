@@ -383,25 +383,25 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🗓️ Roadmap
 
-### Phase 1: Foundation (Q2 2024)
+### Phase 1: Foundation (Q1 2025)
 - Core protocol development
 - Basic agent implementation
 - Initial security framework
 - MVP release
 
-### Phase 2: Enhancement (Q3 2024)
+### Phase 2: Enhancement (Q2 2025)
 - Advanced agent capabilities
 - Improved consensus mechanism
 - Extended API functionality
 - Performance optimization
 
-### Phase 3: Scale (Q4 2024)
+### Phase 3: Scale (Q3-Q4 2025)
 - Enterprise integration
 - Advanced security features
 - Ecosystem expansion
 - Community growth
 
-### Phase 4: Innovation (2025+)
+### Phase 4: Innovation (2026+)
 - Advanced AI features
 - Cross-chain integration
 - Global adoption
