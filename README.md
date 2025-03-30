@@ -177,3 +177,148 @@ aira/
 ├── docs/             # Documentation
 └── scripts/          # Build and deployment scripts
 ```
+
+## 🚀 Quick Start
+
+### Prerequisites
+```bash
+# Required
+Node.js >= 16
+Python >= 3.8
+CUDA >= 11.0 (for GPU support)
+Ethereum wallet
+
+# Optional
+Docker >= 20.10
+```
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/AIRA-236/AIRA.git
+cd AIRA
+```
+
+2. Install dependencies
+```bash
+# Install Node.js dependencies
+npm install
+
+# Install Python dependencies
+python -m pip install -r requirements.txt
+```
+
+3. Configure environment
+```bash
+# Copy example environment file
+cp .env.example .env
+
+# Edit .env file with your settings
+# Required: API keys, blockchain endpoints, etc.
+```
+
+4. Start development server
+```bash
+npm run dev
+```
+
+## 📚 Usage Examples
+
+### 1. Create and Deploy an AI Agent
+
+```typescript
+import { AIRA } from '@aira/core';
+import { AgentConfig } from '@aira/types';
+
+// Initialize AIRA
+const aira = new AIRA({
+  networkUrl: process.env.NETWORK_URL,
+  privateKey: process.env.PRIVATE_KEY
+});
+
+// Configure agent
+const config: AgentConfig = {
+  name: 'DataAnalyst',
+  capabilities: ['data-analysis', 'prediction'],
+  trustScore: 0.95
+};
+
+// Deploy agent
+const agent = await aira.deployAgent(config);
+console.log('Agent deployed:', agent.address);
+```
+
+### 2. Set Up Agent Collaboration
+
+```typescript
+// Create collaboration team
+const team = await aira.createTeam({
+  name: 'AnalyticsTeam',
+  agents: [agent1.address, agent2.address],
+  consensusThreshold: 0.8
+});
+
+// Start collaboration task
+const task = await team.startTask({
+  type: 'market-analysis',
+  data: marketData,
+  timeout: 5000
+});
+
+// Get results
+const result = await task.getResult();
+```
+
+## 📁 Project Structure
+
+```
+aira/
+├── src/                      # Source code
+│   ├── core/                 # Core implementations
+│   │   ├── agents/          # AI agent implementations
+│   │   ├── blockchain/      # Blockchain integrations
+│   │   ├── consensus/       # Consensus mechanisms
+│   │   └── ml/              # Machine learning models
+│   ├── types/               # Type definitions
+│   │   ├── agents.ts        # Agent type definitions
+│   │   ├── blockchain.ts    # Blockchain type definitions
+│   │   └── index.ts         # Type exports
+│   └── utils/               # Utility functions
+├── tests/                    # Test files
+│   ├── unit/                # Unit tests
+│   ├── integration/         # Integration tests
+│   └── e2e/                 # End-to-end tests
+├── docs/                     # Documentation
+│   ├── api/                 # API documentation
+│   ├── guides/              # User guides
+│   └── architecture/        # Architecture docs
+├── scripts/                  # Build and deployment scripts
+├── examples/                 # Example implementations
+└── configs/                  # Configuration files
+
+## 🔍 API Documentation
+
+Detailed API documentation is available in the [docs/api](docs/api) directory.
+
+### Key APIs
+
+- Agent Management API
+- Task Management API
+- Collaboration API
+- Token Management API
+
+For detailed API documentation and examples, visit our [API Documentation](docs/api).
+
+## 🤝 Contributing
+
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on:
+
+- Code of Conduct
+- Development Process
+- Pull Request Process
+- Coding Standards
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
